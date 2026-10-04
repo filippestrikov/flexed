@@ -43,3 +43,8 @@ in `test-results/`; the HTML report is saved in `playwright-report/`.
 
 See [Jenkins setup](docs/jenkins.md) for the local Docker server, generated
 administrator login, pipeline source options, and test reports.
+
+## Jira bug reports
+
+Use [Jira bug report instructions](docs/jira-bug-report-instructions.md)
+for the required report structure and reusable template in the `FLXD` project.
