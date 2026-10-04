@@ -1,0 +1,20 @@
+Convert manual QA scenarios into a Playwright test in JavaScript: 
+Target store: https://staging.getflexed.app/
+
+Scenario:
+Section	:
+ID	: 
+Summary	: Verify the "Why FLEXED Works
+Steps:
+
+
+Expected Result
+
+Constraints:
+- Use stable, radable selectors
+- Add clear assertions after each meaningful action
+- Keep it as a single test
+- Add short comments only where helpful
+- Explain the code after generating it
+																			
+Please: avoid selectors that are lokely to become brittle , add an assertion that the active filter excludes the completed item because the list is empty, keep the code concise, explain what changed and why												
