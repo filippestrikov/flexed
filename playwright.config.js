@@ -5,7 +5,11 @@ module.exports = defineConfig({
   forbidOnly: Boolean(process.env.CI),
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: [['list'], ['html', { open: 'never' }]],
+  reporter: [
+    ['list'],
+    ['html', { open: 'never' }],
+    ...(process.env.CI ? [['junit', { outputFile: 'test-results/junit.xml' }]] : []),
+  ],
   use: {
     baseURL: 'https://staging.getflexed.app/',
     trace: 'retain-on-failure',

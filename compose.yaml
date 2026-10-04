@@ -1,0 +1,33 @@
+name: flexed-ci
+
+services:
+  jenkins:
+    build:
+      context: .
+      dockerfile: jenkins/Dockerfile
+    image: flexed-jenkins:local
+    container_name: flexed-jenkins
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      JAVA_OPTS: "-Djenkins.install.runSetupWizard=false"
+    volumes:
+      - jenkins-home:/var/jenkins_home
+    secrets:
+      - jenkins_admin_password
+    init: true
+    shm_size: "1gb"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:8080/login"]
+      interval: 15s
+      timeout: 5s
+      start_period: 120s
+      retries: 10
+
+volumes:
+  jenkins-home:
+
+secrets:
+  jenkins_admin_password:
+    file: .jenkins/admin-password

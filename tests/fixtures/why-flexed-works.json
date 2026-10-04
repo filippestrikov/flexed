@@ -1,0 +1,39 @@
+{
+  "heading": "Why FLEXED Works",
+  "subheading": "Premium, scientifically-backed features built for women's physiology and performance.",
+  "features": [
+    "Interactive Progress Tracking",
+    "Home & Gym Workout Options",
+    "Macro & Nutrition Tracking",
+    "Recipes & Nutrition Education",
+    "Expert-Led Specialized Programs & Education",
+    "Access to all FLEXED Journeys"
+  ],
+  "notes": [
+    {
+      "feature": "Interactive Progress Tracking",
+      "text": "Track your workouts, celebrate milestones, and see your progress over time"
+    },
+    {
+      "feature": "Home & Gym Workout Options",
+      "text": "Workouts that fit your space and equipment"
+    },
+    {
+      "feature": "Macro & Nutrition Tracking",
+      "text": "Track your meals, calories, and macros with ease"
+    },
+    {
+      "feature": "Recipes & Nutrition Education",
+      "text": "Simple recipes and practical nutrition guidance"
+    },
+    {
+      "feature": "Expert-Led Specialized Programs & Education",
+      "text": "Specialized programs and educational guidance created by qualified fitness and wellness experts"
+    },
+    {
+      "feature": "Access to all FLEXED Journeys",
+      "text": "Choose the journey that fits your goals and switch whenever you need"
+    }
+  ],
+  "featuresWithoutNotes": []
+}

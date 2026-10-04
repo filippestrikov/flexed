@@ -1,0 +1,9 @@
+**
+!package.json
+!package-lock.json
+!playwright.config.js
+!Jenkinsfile
+!tests/
+!tests/**
+!jenkins/
+!jenkins/**
