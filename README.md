@@ -16,6 +16,14 @@ Expected English copy is stored in `tests/fixtures/why-flexed-works.json`.
 CMS credentials belong in local environment variables; authenticated browser
 state belongs in the Git-ignored `.auth/` directory.
 
+See [Hero coverage](docs/hero-coverage.md) for the `Hero section` tab, its 21
+implemented tests, CMS content baseline, and pending mutation/design cases.
+Run that coverage with `npx playwright test tests/hero --workers=1`.
+
+See [Desktop header coverage](docs/header-coverage.md) for all 37 `FLXD-HEAD`
+scenarios, current Jira requirements, selectors, and validation limits.
+Run it with `npx playwright test tests/header.spec.js --workers=1`.
+
 Requires Node.js 18 or newer. Playwright 1.55.1 is pinned for compatibility
 with the Node.js 18 installation in this workspace.
 

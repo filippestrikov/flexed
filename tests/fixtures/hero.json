@@ -1,0 +1,20 @@
+{
+  "en": {
+    "headline": "FLEXED - The Complete System to Build Feminine Strength & Physique",
+    "subheading": "The Hourglass System: journeys matched to your body, a plan that adapts to your life, and progress you can see",
+    "tags": ["Structured, Guided Workouts", "Easy Macro Tracking", "Expert Fitness Education"],
+    "cta": "Join FLEXED Now",
+    "imageAlt": "FLEXED athlete"
+  },
+  "ar": {
+    "headline": "فلكسد - النظام المتكامل لبناء قوتكِ وقوامكِ الأنثوي",
+    "subheading": "نظام الساعة الرملية: رحلات تناسب جسمكِ، وخطة تتكيّف مع حياتكِ، ونتائج تلمسينها بنفسكِ",
+    "tags": ["تمارين منظّمة وموجّهة", "حساب الماكروز بسهولة", "تثقيف رياضي علمي"],
+    "cta": "انضمي إلى فلكسد الآن",
+    "imageAlt": "رياضية فلكسد"
+  },
+  "images": {
+    "light": "https://pub-129e6e59f5ac409f895a4da7cd0fe5df.r2.dev/public/homepage/hero/cover.webp",
+    "dark": "https://pub-129e6e59f5ac409f895a4da7cd0fe5df.r2.dev/public/homepage/hero/cover-dark.webp"
+  }
+}
