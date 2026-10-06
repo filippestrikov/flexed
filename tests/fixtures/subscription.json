@@ -1,0 +1,15 @@
+{
+  "capturedAt": "2026-10-06",
+  "source": "Read-only English staging storefront snapshot; marketing regression baseline, not an approved CMS export or billing source.",
+  "heading": "Choose Your FLEXED Experience",
+  "requiredSubheading": "Everything you need to train, progress, and reach your goals.",
+  "groups": [
+    { "title": "Training & Progress", "features": ["Progress Tracking", "Home & Gym Workouts", "Access to All FLEXED Journeys"] },
+    { "title": "Nutrition", "features": ["Recipes & Nutrition Education", "Macro & Nutrition Tracking"] },
+    { "title": "Expert Guidance & Support", "features": ["Specialized Programs", "Expert-Led Education", "New Content Every Month"] }
+  ],
+  "plans": {
+    "yearly": { "name": "Yearly FLEXED Pro", "badge": "Best Value", "subtext": "Save 8% • Just $73.94/month" },
+    "monthly": { "name": "Monthly FLEXED Pro", "subtext": "Billed monthly" }
+  }
+}
