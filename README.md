@@ -60,3 +60,12 @@ administrator login, pipeline source options, and test reports.
 
 Use [Jira bug report instructions](docs/jira-bug-report-instructions.md)
 for the required report structure and reusable template in the `FLXD` project.
+
+## Confluence documentation standards
+
+[Confluence documentation standards](docs/confluence-standards/README.md)
+define the reusable project and QA documentation structure for any client or
+Jira project: required vs optional pages, templates, the project audit
+workflow, and instructions for Claude. The `FLXD` bug instructions above are
+this project's documented variant of the
+[bug report standard](docs/confluence-standards/BUG_REPORT_STANDARD.md).
