@@ -28,6 +28,10 @@ See [Subscription/pricing coverage](docs/subscription-coverage.md) for the next
 XLSX tab, its Jira requirement changes, billing fixture contract, and pending cases.
 Run it with `npx playwright test tests/subscription.spec.js --workers=1`.
 
+See [Video edit coverage](docs/video-edit-coverage.md) for the admin video edit
+panel (FLXD-457), its fixture variables, and the pending AC10 case.
+Run it with `npx playwright test tests/video-edit.spec.js --workers=1`.
+
 Requires Node.js 18 or newer. Playwright 1.55.1 is pinned for compatibility
 with the Node.js 18 installation in this workspace.
 
