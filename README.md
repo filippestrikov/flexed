@@ -28,6 +28,10 @@ See [Subscription/pricing coverage](docs/subscription-coverage.md) for the next
 XLSX tab, its Jira requirement changes, billing fixture contract, and pending cases.
 Run it with `npx playwright test tests/subscription.spec.js --workers=1`.
 
+See [Exercise library coverage](docs/exercise-filters-coverage.md) for the admin
+exercises table search, filters and sorting (FLXD-446), and its pending cases.
+Run it with `npx playwright test tests/exercise-filters.spec.js --workers=1`.
+
 Requires Node.js 18 or newer. Playwright 1.55.1 is pinned for compatibility
 with the Node.js 18 installation in this workspace.
 
